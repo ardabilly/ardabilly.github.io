@@ -918,6 +918,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+  line-height: 40px;
 }
 
 .fh5co-blog {
