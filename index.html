@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
     
     <head>
@@ -22,16 +23,16 @@
         <meta name="twitter:image" content="" />
         <meta name="twitter:url" content="" />
         <meta name="twitter:card" content="" />
-
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Space+Mono"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Space+Mono:400,700&display=swap"> 
+        
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
         
         <!-- Modernizr JS -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js" async defer></script>
-
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js" defer></script>
     </head>
     
     <body>
@@ -335,14 +336,17 @@
         <script type="text/javascript" src="js/main.js"></script>
 
         <script type="text/javascript">
-            var typed5 = new Typed('#typed5', {
-                strings: ['Web Developer'],
-                typeSpeed: 100,
-                backSpeed: 60,
-                cursorChar: '_',
-                // shuffle: true,
-                smartBackspace: false,
-                loop: true
+            $(function(){
+                
+                var typed5 = new Typed('#typed5', {
+                    strings: ['Web Developer'],
+                    typeSpeed: 100,
+                    backSpeed: 60,
+                    cursorChar: '_',
+                    // shuffle: true,
+                    smartBackspace: false,
+                    loop: true
+                });
             });
         </script>
     
