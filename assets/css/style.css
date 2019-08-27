@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #333;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #333 !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: #333;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: #333;
 }
 
 .fh5co-heading {

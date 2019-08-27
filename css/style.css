@@ -1,14 +1,7 @@
-body
-{
-     font-family: 'montserrat', sans-serif;
-}
 span
 {
     font-size: 28px;
     color: #fff;
-}
-div{
-    display: block;
 }
 .jumbotron
 {
@@ -26,55 +19,7 @@ div{
     margin-bottom: 30px;
     margin-bottom: 30px;
 }
-.work-ex
-{   
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-.work{
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-right:5px;
 
-    padding: 30px;
-}
-.work .tanggal
-{
-    float: right;
-    color: rgba(0,0,0,0.3);
-    font-size: 14px;
-    margin-top: 6px;
-    margin-left: 5px; 
-
-}
-.work .perusahaan
-{
-    width: 170px;
-    font-size: 11px;
-    background-color: #007bff;
-    border-color: #007bff;
-    border-radius: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding:5px;
-}
-.work .school
-{
-    width: 170px;
-    font-size: 11px;
-    background-color: #28a745;
-    border-color: #28a745;
-    border-radius: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding:5px;
-}
-.work p{
-    color: rgba(0,0,0,0.8);
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: 350;
-}
 .skill
 {
     padding:35px;
@@ -132,33 +77,6 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
-}
-
-#page {
-  position: relative;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.offcanvas #page {
-  overflow: hidden;
-  position: absolute;
-}
-.offcanvas #page:after {
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
-  content: "";
 }
 
 a {
@@ -337,7 +255,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #2F3C4F;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -372,7 +290,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #333 !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -419,7 +337,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  /*background: #FF9000;*/
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -1156,6 +1074,12 @@ input[type="text"] {
 @media screen and (max-width: 768px) {
   #map {
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 400px;
   }
 }
 
